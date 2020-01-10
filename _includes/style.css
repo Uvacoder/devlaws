@@ -5,6 +5,22 @@
 	color: #333;
 }
 
+.nav {
+	text-align: center;
+	margin-top: 10vh;
+}
+
+.nav__button {
+	background: #333;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: .75em 1.5em;
+	border-radius: 0.5em;
+	border: 0;
+	cursor: pointer;
+}
+
 .law {
 	margin: 10vh auto 0;
 	font-size: calc(3rem + 1.5vw);
