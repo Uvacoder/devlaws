@@ -1,13 +1,13 @@
 [
   {
     "text": "If anything can go wrong, it will.",
-    "name": "Murphy's Law",
+    "name": "Murphy’s Law",
     "slug": "murphys-law",
     "source": "https://en.wikipedia.org/wiki/Murphy%27s_law"
   },
   {
     "text": "If anything can’t go wrong, it still will.",
-    "name": "",
+    "name": "Murphy’s Law (amended)",
     "slug": "murphy-cant",
     "source": ""
   },
@@ -25,13 +25,13 @@
   },
   {
     "text": "Anything that can go wrong, will—at the worst possible moment.",
-    "name": "Finagle's law",
+    "name": "Finagle’s law",
     "slug": "finagles-law",
     "source": "https://en.wikipedia.org/wiki/Finagle%27s_law"
   },
   {
-    "text": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
-    "name": "Hofstadter's Law",
+    "text": "It always takes longer than you expect, even when you take into account Hofstadter’s Law.",
+    "name": "Hofstadter’s Law",
     "slug": "hofstadters-law",
     "source": "https://en.wikipedia.org/wiki/Hofstadter%27s_law"
   },
@@ -58,5 +58,17 @@
     "name": "Putt’s Law",
     "slug": "putts-law",
     "source": "https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat"
+  },
+  {
+    "text": "Nothing is ever as simple as it seems.",
+    "name": "Common Law",
+    "slug": "nothing-is-simple",
+    "source": ""
+  },
+  {
+    "text": "Whatever you set out to do, something else must be done first.",
+    "name": "Common Law",
+    "slug": "nothing-comes-first",
+    "source": ""
   }
 ]
