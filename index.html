@@ -1,0 +1,10 @@
+---
+pagination:
+    data: laws
+    size: 1
+    alias: law
+permalink: "{{ law.slug | slug }}/"
+layout: layout
+---
+
+{{ law.text }} <a href="{{slug}}">#</a>
