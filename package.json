@@ -10,6 +10,7 @@
   "author": "WebInspectInc",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "terser": "^4.6.2"
   }
 }
