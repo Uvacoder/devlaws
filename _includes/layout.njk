@@ -7,6 +7,9 @@ title: Murphy's Law
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title }}</title>
+		{% set css %}
+			{% include "style.css" %}
+		{% endset %}
 		{% set js %}
 		  {% include "randomizer.js" %}
 		{% endset %}
@@ -14,6 +17,10 @@ title: Murphy's Law
 			{% include "../_data/laws.json" %}
 		{% endset %}
 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+		<style>
+			{{ css | cssmin | safe }}
+		</style>
 		<script>
 			(function() {
 				var data = {{ data | safe }};

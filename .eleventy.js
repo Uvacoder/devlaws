@@ -1,4 +1,5 @@
 const Terser = require("terser");
+const CleanCSS = require("clean-css");
 
 
 module.exports = function(eleventyConfig) {
@@ -10,6 +11,10 @@ module.exports = function(eleventyConfig) {
 		}
 
 		return minified.code;
+	});
+
+	eleventyConfig.addFilter("cssmin", function(code) {
+		return new CleanCSS({}).minify(code).styles;
 	});
 
 	// eleventyConfig.addFilter("filterSlugs", function(data) {
