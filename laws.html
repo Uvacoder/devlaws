@@ -7,4 +7,13 @@ permalink: "{{ law.slug | slug }}/"
 layout: layout
 ---
 
-{{ law.text }} <a href="{{slug}}">#</a>
+<blockquote class="law">
+	<p class="law__p">{{ law.text }}</p>
+	<footer class="law__name">
+		{{ law.name }}
+
+		{% if law.source %}
+			<cite class="law__source"><a href="{{ law.source }}">source</a></cite>
+		{% endif %}
+	</footer>
+</blockquote>
