@@ -70,5 +70,11 @@
     "name": "Common Law",
     "slug": "nothing-comes-first",
     "source": ""
+  },
+  {
+    "text": "Your code either dies a prototype or it becomes legacy.",
+    "name": "Swizec’s Law",
+    "slug": "swizecs-law",
+    "source": "https://swizec.com/blog/famous-last-words-pfft-thats-easy/swizec/9278"
   }
 ]
