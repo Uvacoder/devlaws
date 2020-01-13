@@ -76,5 +76,11 @@
     "name": "Swizec’s Law",
     "slug": "swizecs-law",
     "source": "https://swizec.com/blog/famous-last-words-pfft-thats-easy/swizec/9278"
+  },
+  {
+    "text": "Just Build Websites.",
+    "name": "Chris’ Law",
+    "slug": "chris-law",
+    "source": "http://justbuildwebsites.com/"
   }
 ]
